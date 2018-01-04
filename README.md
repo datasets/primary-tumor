@@ -15,10 +15,6 @@ Output data is located in directory `data`
 
 `data/primary-tumor.csv`
 
-Fields in csv are:
-
-
-
 ## Scripts
 
 Scripts are in directory `scripts`
