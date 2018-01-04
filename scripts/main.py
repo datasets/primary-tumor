@@ -11,6 +11,5 @@ with open("../data/primary-tumor.csv", "w") as bumps_file:
         decodedLine = decodedLine.replace('yes', 'true')
         decodedLine = decodedLine.replace('no', 'false')
         decodedLine = decodedLine.lower()
-        print(decodedLine.strip())
         bumps_file.write(decodedLine.strip() + '\n')
     bumps_file.close()
