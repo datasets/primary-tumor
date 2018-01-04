@@ -11,7 +11,7 @@ Institute of Oncology, Ljubljana, Yugoslavia. Thanks go to
 M. Zwitter and M. Soklic for providing the data.
 _Please include this citation if you plan to use this database.
 
-Output data is located in directory `data`
+Data is located in directory `data`
 
 `data/primary-tumor.csv`
 
