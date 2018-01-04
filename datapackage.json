@@ -1,0 +1,130 @@
+{
+    "profile": "tabular-data-package",
+    "title": "Primary tumor",
+    "name": "primary-tumor",
+    "sources": [
+        {
+            "title": "OpenML - Primary tumor",
+            "path": "https://www.openml.org/d/171"
+        }
+    ],
+    "licences": [
+        {
+            "name": "odc-pddl",
+            "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
+            "path": "http://opendatacommons.org/licenses/pddl/"
+        }
+    ],
+    "resources": [
+        {
+            "path": "data/primary-tumor.csv",
+            "profile": "tabular-data-resource",
+            "encoding": "utf-8",
+            "name": "primary-tumor",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "age",
+                        "type": "string",
+                        "format": "default",
+                        "description": "<30, 30-59, >=60"
+                    },
+                    {
+                        "name": "sex",
+                        "type": "string",
+                        "format": "default",
+                        "description": "female, male"
+                    },
+                    {
+                        "name": "histologic-type",
+                        "type": "string",
+                        "format": "default",
+                        "description": "epidermoid, adeno, anaplastic"
+                    },
+                    {
+                        "name": "degree-of-diffe",
+                        "type": "string",
+                        "format": "default",
+                        "description": "well, fairly, poorly"
+                    },
+                    {
+                        "name": "bone",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bone-marrow",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "lung",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pleura",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "peritoneum",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "liver",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "brain",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "skin",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "neck",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "supraclavicular",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "axillar",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "mediastinum",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "abdominal",
+                        "type": "boolean",
+                        "format": "default"
+                    },
+                    {
+                        "name": "class",
+                        "type": "string",
+                        "format": "default",
+                        "description": "lung, head & neck, esophasus, thyroid, stomach, duoden & sm.int, colon, rectum, anus, salivary glands, pancreas, gallblader, liver, kidney, bladder, testis, prostate, ovary, corpus uteri, cervix uteri, vagina, breast"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
