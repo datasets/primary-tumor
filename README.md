@@ -1,4 +1,4 @@
-<a href="https://datahub.io/core/primary-tumor"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25)" alt="badge" /></a>
+<a className="gh-badge" href="https://datahub.io/core/primary-tumor"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25" alt="badge" /></a>
 
 This is a dataset about primary tumors in people. 
 Locations of primary tumors are locations in body where the tumor first appeared 
